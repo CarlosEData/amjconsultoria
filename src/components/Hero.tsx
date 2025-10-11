@@ -25,23 +25,14 @@ const Hero = () => {
       <div className="absolute top-20 right-20 w-64 h-64 border border-slate-700 opacity-20"></div>
       <div className="absolute bottom-20 left-20 w-96 h-96 border-2 border-slate-700 opacity-10"></div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-40 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div>
-            {/* Logo */}
-            <div className="mb-8">
-              <img
-                src="/logo-amj-new.png"
-                alt="AMJ Consultoria"
-                className="h-24 w-auto filter drop-shadow-2xl"
-              />
-            </div>
-
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-slate-800/50 backdrop-blur-sm border border-slate-700 px-4 py-2 mb-8">
-              <MapPin className="w-4 h-4 text-slate-400" />
-              <span className="text-xs font-mono text-slate-400 tracking-wider uppercase">
+            <div className="inline-flex items-center gap-2 bg-slate-800/80 backdrop-blur-sm border border-slate-600 px-5 py-2.5 mb-8 rounded-md">
+              <MapPin className="w-4 h-4 text-blue-400" />
+              <span className="text-sm font-medium text-white tracking-wide">
                 Vitória da Conquista - BA
               </span>
             </div>
@@ -81,7 +72,7 @@ const Hero = () => {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-2 gap-6 mt-12 max-w-md">
+            <div className="grid grid-cols-3 gap-6 mt-12 max-w-2xl">
               <div className="border-l-2 border-slate-700 pl-4">
                 <div className="flex items-center gap-2 mb-2">
                   <Shield className="w-5 h-5 text-slate-400" />
@@ -95,6 +86,13 @@ const Hero = () => {
                   <span className="text-2xl font-light text-white font-mono">Multi</span>
                 </div>
                 <p className="text-xs text-slate-500 uppercase tracking-wide">Equipe Especializada</p>
+              </div>
+              <div className="border-l-2 border-slate-700 pl-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <Award className="w-5 h-5 text-slate-400" />
+                  <span className="text-2xl font-light text-white font-mono">100%</span>
+                </div>
+                <p className="text-xs text-slate-500 uppercase tracking-wide">Consulta Online</p>
               </div>
             </div>
           </div>

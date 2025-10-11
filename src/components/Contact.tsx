@@ -23,7 +23,7 @@ Serviço de Interesse: ${formData.service}
 Mensagem: ${formData.message}
     `;
 
-    const mailtoLink = `mailto:contato@amjconsultoria.com.br?subject=Contato via Website - ${formData.name}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:jefferson.rammos.pereiraa@gmail.com?subject=Contato via Website - ${formData.name}&body=${encodeURIComponent(emailBody)}`;
 
     alert('Formulário em desenvolvimento. Entre em contato pelos canais disponíveis.');
 
@@ -110,8 +110,8 @@ Mensagem: ${formData.message}
                     </div>
                     <div>
                       <h4 className="text-sm font-medium text-slate-900 mb-2 uppercase tracking-wide">Telefone</h4>
-                      <a href="tel:77999887766" className="text-slate-600 hover:text-slate-900 font-light text-sm transition-colors">
-                        (77) 99988-7766
+                      <a href="tel:+5577991244959" className="text-slate-600 hover:text-slate-900 font-light text-sm transition-colors">
+                        +55 77 99124-4959
                       </a>
                     </div>
                   </div>
@@ -124,8 +124,8 @@ Mensagem: ${formData.message}
                     </div>
                     <div>
                       <h4 className="text-sm font-medium text-slate-900 mb-2 uppercase tracking-wide">E-mail</h4>
-                      <a href="mailto:contato@amjconsultoria.com.br" className="text-slate-600 hover:text-slate-900 font-light text-sm transition-colors break-all">
-                        contato@amjconsultoria.com.br
+                      <a href="mailto:jefferson.rammos.pereiraa@gmail.com" className="text-slate-600 hover:text-slate-900 font-light text-sm transition-colors break-all">
+                        jefferson.rammos.pereiraa@gmail.com
                       </a>
                     </div>
                   </div>

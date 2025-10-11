@@ -173,47 +173,8 @@ const Services = () => {
       ]
     },
     {
-      icon: BookOpen,
-      number: '05',
-      title: 'Treinamentos Especializados',
-      description: 'Capacitação profissional em normas regulamentadoras',
-      color: '#8b5cf6',
-      services: [
-        'NR-5 - CIPA',
-        'NR-10 Básico - Segurança em Instalações Elétricas',
-        'NR-35 - Trabalho em Altura'
-      ],
-      summary: 'Capacitação profissional em Normas Regulamentadoras, oferecendo treinamentos presenciais e EAD com certificação válida. Nossos cursos são ministrados por instrutores qualificados e seguem rigorosamente as diretrizes estabelecidas pelo Ministério do Trabalho.',
-      details: [
-        {
-          title: 'NR-5 - CIPA (Comissão Interna de Prevenção de Acidentes)',
-          description: 'Treinamento obrigatório para membros da CIPA, abordando prevenção de acidentes, investigação de ocorrências e promoção da segurança no ambiente de trabalho.'
-        },
-        {
-          title: 'NR-10 Básico - Segurança em Instalações e Serviços em Eletricidade',
-          description: 'Curso fundamental para trabalhadores que interagem com instalações elétricas, cobrindo riscos elétricos, medidas de controle e procedimentos de segurança.'
-        },
-        {
-          title: 'NR-10 SEP - Sistema Elétrico de Potência',
-          description: 'Treinamento complementar para profissionais que atuam em sistemas elétricos de potência, com foco em procedimentos específicos e medidas de segurança avançadas.'
-        },
-        {
-          title: 'NR-11 - Transporte, Movimentação, Armazenagem e Manuseio de Materiais',
-          description: 'Capacitação para operadores de equipamentos de transporte e movimentação, incluindo empilhadeiras, guindastes e outros equipamentos similares.'
-        },
-        {
-          title: 'NR-33 - Segurança e Saúde nos Trabalhos em Espaços Confinados',
-          description: 'Treinamento essencial para trabalhadores e supervisores que atuam em espaços confinados, abordando riscos atmosféricos, procedimentos de entrada e resgate.'
-        },
-        {
-          title: 'NR-35 - Trabalho em Altura',
-          description: 'Curso obrigatório para atividades realizadas acima de 2 metros de altura, cobrindo técnicas de acesso, uso de EPIs, procedimentos de emergência e resgate.'
-        }
-      ]
-    },
-    {
       icon: Wrench,
-      number: '06',
+      number: '05',
       title: 'Locação de Equipamentos',
       description: 'Equipamentos de medição e monitoramento profissionais',
       color: '#64748b',
@@ -240,7 +201,7 @@ const Services = () => {
     },
     {
       icon: Target,
-      number: '07',
+      number: '06',
       title: 'Projetos Especiais',
       description: 'Soluções customizadas para necessidades específicas',
       color: '#ec4899',
@@ -262,6 +223,111 @@ const Services = () => {
         {
           title: 'Análises de Viabilidade Técnica',
           description: 'Estudos técnicos detalhados para avaliação de viabilidade de projetos e implementações na área de SST e meio ambiente.'
+        }
+      ]
+    },
+    {
+      icon: BookOpen,
+      number: '07',
+      title: 'Treinamentos Especializados',
+      description: 'Capacitação profissional em todas as normas regulamentadoras',
+      color: '#8b5cf6',
+      services: [
+        'NR-1 – Disposições Gerais',
+        'NR-5 – CIPA',
+        'NR-10 – Segurança em Eletricidade',
+        'NR-35 – Trabalho em Altura',
+        'E todas as demais NRs'
+      ],
+      summary: 'Capacitação profissional completa em Normas Regulamentadoras, oferecendo treinamentos presenciais e EAD com certificação válida. Nossos cursos são ministrados por instrutores qualificados e seguem rigorosamente as diretrizes estabelecidas pelo Ministério do Trabalho e Emprego.',
+      details: [
+        {
+          title: 'NR-1 – Disposições Gerais e Gerenciamento de Riscos Ocupacionais',
+          description: 'Fundamentos sobre gerenciamento de riscos ocupacionais e disposições gerais aplicáveis a todos os ambientes de trabalho.'
+        },
+        {
+          title: 'NR-3 – Embargo e Interdição',
+          description: 'Procedimentos para embargo e interdição de estabelecimentos, obras e equipamentos em situações de risco grave e iminente.'
+        },
+        {
+          title: 'NR-4 – Serviços Especializados em Segurança e em Medicina do Trabalho',
+          description: 'Organização e funcionamento dos SESMT nas empresas.'
+        },
+        {
+          title: 'NR-5 – Comissão Interna de Prevenção de Acidentes',
+          description: 'Constituição, organização e funcionamento da CIPA para prevenção de acidentes e doenças ocupacionais.'
+        },
+        {
+          title: 'NR-6 – Equipamento de Proteção Individual – EPI',
+          description: 'Seleção, uso, conservação e manutenção dos equipamentos de proteção individual.'
+        },
+        {
+          title: 'NR-7 – Programa de Controle Médico de Saúde Ocupacional',
+          description: 'Implementação e gerenciamento do PCMSO para monitoramento da saúde dos trabalhadores.'
+        },
+        {
+          title: 'NR-9 – Avaliação e Controle das Exposições Ocupacionais',
+          description: 'Identificação, avaliação e controle de agentes físicos, químicos e biológicos no ambiente de trabalho.'
+        },
+        {
+          title: 'NR-10 – Segurança em Instalações e Serviços em Eletricidade',
+          description: 'Medidas de proteção e prevenção de acidentes em instalações elétricas e serviços com eletricidade.'
+        },
+        {
+          title: 'NR-11 – Transporte, Movimentação, Armazenagem e Manuseio de Materiais',
+          description: 'Operação segura de equipamentos de transporte e movimentação de materiais.'
+        },
+        {
+          title: 'NR-12 – Segurança no Trabalho em Máquinas e Equipamentos',
+          description: 'Medidas de proteção para garantir a segurança na operação de máquinas e equipamentos.'
+        },
+        {
+          title: 'NR-13 – Caldeiras, Vasos de Pressão e Tubulações',
+          description: 'Requisitos de segurança para instalação, operação e manutenção de caldeiras e vasos de pressão.'
+        },
+        {
+          title: 'NR-15 – Atividades e Operações Insalubres',
+          description: 'Identificação e caracterização de atividades insalubres e seus limites de tolerância.'
+        },
+        {
+          title: 'NR-16 – Atividades e Operações Perigosas',
+          description: 'Caracterização de atividades perigosas envolvendo explosivos, inflamáveis e energia elétrica.'
+        },
+        {
+          title: 'NR-17 – Ergonomia',
+          description: 'Adaptação das condições de trabalho às características psicofisiológicas dos trabalhadores.'
+        },
+        {
+          title: 'NR-18 – Segurança e Saúde no Trabalho na Indústria da Construção',
+          description: 'Medidas de proteção específicas para atividades da construção civil.'
+        },
+        {
+          title: 'NR-20 – Segurança e Saúde no Trabalho com Inflamáveis e Combustíveis',
+          description: 'Requisitos para trabalho seguro com inflamáveis e combustíveis.'
+        },
+        {
+          title: 'NR-23 – Proteção Contra Incêndios',
+          description: 'Medidas de prevenção e combate a incêndios nos locais de trabalho.'
+        },
+        {
+          title: 'NR-24 – Condições Sanitárias e de Conforto nos Locais de Trabalho',
+          description: 'Requisitos mínimos de higiene e conforto nos ambientes de trabalho.'
+        },
+        {
+          title: 'NR-26 – Sinalização de Segurança',
+          description: 'Padronização de cores e sinalizações para prevenção de acidentes.'
+        },
+        {
+          title: 'NR-33 – Segurança e Saúde nos Trabalhos em Espaços Confinados',
+          description: 'Procedimentos de segurança para trabalhos em espaços confinados.'
+        },
+        {
+          title: 'NR-35 – Trabalho em Altura',
+          description: 'Medidas de proteção para trabalhos realizados acima de 2 metros do nível inferior.'
+        },
+        {
+          title: 'Demais Normas Regulamentadoras',
+          description: 'Treinamentos disponíveis para todas as 38 NRs vigentes, incluindo NR-22 (Mineração), NR-29 (Portuário), NR-31 (Agricultura), NR-32 (Saúde), NR-34 (Naval), NR-36 (Abate e Carnes), NR-37 (Plataformas de Petróleo) e NR-38 (Limpeza Urbana).'
         }
       ]
     }

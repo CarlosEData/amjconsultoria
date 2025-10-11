@@ -28,12 +28,12 @@ const Header = () => {
         : 'bg-[#1e3a8a]'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
+        <div className="flex justify-between items-center py-3">
           <div className="flex items-center">
             <img
               src="/logo-amj-new.png"
               alt="AMJ Consultoria"
-              className="h-16 w-auto"
+              className="h-24 w-auto"
             />
           </div>
 

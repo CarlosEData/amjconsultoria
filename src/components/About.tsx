@@ -65,6 +65,20 @@ const About = () => {
                 A AMJ Consultoria é especializada em soluções integradas para Segurança do Trabalho, Medicina
                 Ocupacional e Meio Ambiente.
               </p>
+
+              {/* Destaque - Consulta Online */}
+              <div className="bg-slate-900 p-6 mb-6 -ml-8">
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-1 h-8 bg-white"></div>
+                  <h3 className="text-2xl font-medium text-white tracking-tight">
+                    Consulta 100% Online
+                  </h3>
+                </div>
+                <p className="text-slate-300 font-light text-sm leading-relaxed pl-4">
+                  Atendimento remoto completo, com praticidade e agilidade para sua empresa
+                </p>
+              </div>
+
               <p className="text-lg text-slate-600 font-light leading-relaxed mb-6">
                 Localizada em Vitória da Conquista - BA, atendemos empresas de diversos
                 segmentos, oferecendo serviços especializados que garantem a conformidade
