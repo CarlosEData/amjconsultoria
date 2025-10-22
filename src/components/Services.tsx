@@ -7,7 +7,9 @@ import {
   BookOpen,
   Wrench,
   Target,
-  ArrowUpRight
+  ArrowUpRight,
+  FileCheck,
+  ClipboardCheck
 } from 'lucide-react';
 import ServiceModal from './ServiceModal';
 
@@ -328,6 +330,60 @@ const Services = () => {
         {
           title: 'Demais Normas Regulamentadoras',
           description: 'Treinamentos disponíveis para todas as 38 NRs vigentes, incluindo NR-22 (Mineração), NR-29 (Portuário), NR-31 (Agricultura), NR-32 (Saúde), NR-34 (Naval), NR-36 (Abate e Carnes), NR-37 (Plataformas de Petróleo) e NR-38 (Limpeza Urbana).'
+        }
+      ]
+    },
+    {
+      icon: FileCheck,
+      number: '08',
+      title: 'Regularização junto ao CREA',
+      description: 'Responsável técnico e conformidade com o CREA',
+      color: '#0ea5e9',
+      services: [
+        'Atribuição de Responsável Técnico',
+        'Regularização Empresarial junto ao CREA',
+        'Prevenção de Multas e Penalidades'
+      ],
+      summary: 'Regularizamos sua empresa junto ao CREA e atribuímos um responsável técnico. Dessa maneira evita futuras multas emitidas pelo CREA.',
+      details: [
+        {
+          title: 'Atribuição de Responsável Técnico',
+          description: 'Designação de profissional habilitado e registrado no CREA para assumir a responsabilidade técnica pelas atividades da empresa.'
+        },
+        {
+          title: 'Regularização junto ao CREA',
+          description: 'Processo completo de regularização da empresa junto ao Conselho Regional de Engenharia e Agronomia, incluindo registro e documentação necessária.'
+        },
+        {
+          title: 'Prevenção de Multas',
+          description: 'Manutenção da conformidade legal para evitar autuações, multas e penalidades aplicadas pelo CREA por irregularidades técnicas.'
+        }
+      ]
+    },
+    {
+      icon: ClipboardCheck,
+      number: '09',
+      title: 'Elaboração de PMOC',
+      description: 'Plano de Manutenção, Operação e Controle',
+      color: '#14b8a6',
+      services: [
+        'PMOC para Sistemas de Climatização',
+        'Controle de Qualidade do Ar Interior',
+        'Gestão de Manutenções Preventivas'
+      ],
+      summary: 'Elaboração de PMOC (Plano de Manutenção Operação e Controle) para garantir a eficiência e segurança dos sistemas.',
+      details: [
+        {
+          title: 'PMOC para Sistemas de Climatização',
+          description: 'Desenvolvimento de plano completo de manutenção, operação e controle de sistemas de ar condicionado, conforme Portaria 3.523/98 do Ministério da Saúde e Resolução ANVISA RE nº 09/2003.'
+        },
+        {
+          title: 'Controle de Qualidade do Ar',
+          description: 'Estabelecimento de procedimentos para garantir a qualidade do ar interior, incluindo limpeza de dutos, filtros e componentes do sistema de climatização.'
+        },
+        {
+          title: 'Cronograma de Manutenções',
+          description: 'Elaboração de cronograma detalhado de manutenções preventivas e corretivas, com registro de todas as intervenções realizadas nos sistemas.'
         }
       ]
     }

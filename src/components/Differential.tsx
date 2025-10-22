@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Settings, Users, BookOpen, Star } from 'lucide-react';
+import { Award, Settings, Users, BookOpen, Star, FileCheck, Shield, Wrench, ClipboardCheck } from 'lucide-react';
 
 const Differential = () => {
   const differentials = [
@@ -22,6 +22,31 @@ const Differential = () => {
       icon: BookOpen,
       title: 'Projetos Customizados e Treinamentos',
       description: 'Soluções personalizadas e capacitação profissional'
+    },
+    {
+      icon: FileCheck,
+      title: 'Regularização junto ao CREA',
+      description: 'Regularizamos sua empresa junto ao CREA e atribuímos um responsável técnico. Dessa maneira evita futuras multas emitidas pelo CREA'
+    },
+    {
+      icon: ClipboardCheck,
+      title: 'Elaboração de PMOC',
+      description: 'Plano de Manutenção Operação e Controle para garantir a eficiência e segurança dos sistemas'
+    },
+    {
+      icon: Shield,
+      title: 'Assessoria Jurídica Especializada',
+      description: 'Suporte legal completo em questões trabalhistas e de segurança do trabalho'
+    },
+    {
+      icon: Wrench,
+      title: 'Manutenção Preventiva e Corretiva',
+      description: 'Programas de manutenção para equipamentos de segurança e sistemas de proteção'
+    },
+    {
+      icon: Star,
+      title: 'Atendimento Personalizado 24/7',
+      description: 'Suporte técnico disponível a qualquer momento para emergências e consultorias'
     }
   ];
 
@@ -38,7 +63,7 @@ const Differential = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {differentials.map((item, index) => (
             <div 
               key={index}
